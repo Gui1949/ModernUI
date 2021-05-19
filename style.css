@@ -23,16 +23,6 @@ strong {
   background-color: #ecf0f1;
 }
 
-#header {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  height: 10vh;
-  padding-right: 2vh;
-  padding-top: 2vh;
-  box-sizing: border-box;
-}
-
 .material-icons.icons {
   font-size: 5vh;
   color: #95a5a6;
@@ -56,11 +46,11 @@ strong {
 #title {
   font-size: 3vh;
   margin-top: 0;
-  padding-left: 4vh;
 }
 
 #content {
   width: 90%;
+  padding-top: 5vh;
   margin: auto;
 }
 
@@ -84,14 +74,15 @@ strong {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 18vh;
-  height: 18vh;
-  margin-bottom: 4vh;
+  width: 17vh;
+  height: 17vh;
+  margin-bottom: 6vh;
   background-color: #ffffff;
   border-radius: 3vh;
 }
 
-.options > p {
-  margin-top: 0.6vh;
+.options > p {  
+  position: absolute;
+  margin-top: 25vh;
   font-size: 2vh;
 }
